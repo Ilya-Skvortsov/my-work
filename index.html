@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav class="menu">
+            <a class="menu__link_active" href="#">Главная</a>
+            <a class="menu__link_gold" href="#">SOFIT EVENT HOUSE</a>
+            <a class="menu__link" href="#">МЕРОПРИЯТИЯ</a>
+            <a class="menu__link" href="#">ТУРИСТАМ</a>
+            <a class="menu__link" href="#">КЕЙТЕРИНГ</a>
+            <a class="menu__link" href="#">ДЛЯ АГЕНТСТВ</a>
+        </nav>
+        <div class="burger">
+            <svg class="menu">
+                <use xlink:href="#menu"/>
+            </svg>
+        </div>
+    </header>
+    <div class="content">
+        <div class="owl-carousel">
+            <div class="item-slide">
+                <img src="img/slider/1.png" alt="">
+                <div class="mask">
+                    <div class="text">
+                        <h2>корпоративы</h2>
+                        <p>Отметьте лучший праздник<br>в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-slide">
+                <img src="img/slider/2.png" alt="">
+                <div class="mask">
+                    <div class="text">
+                        <h2>свадьбы</h2>
+                        <p>Отметьте лучший праздник<br>в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-slide">
+                <img src="img/slider/3.png" alt="">
+                <div class="mask">
+                    <div class="text">
+                        <h2>званые вечера</h2>
+                        <p>Отметьте лучший праздник<br>в лучшем дворце Петербурга!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden" hidden>
+        <svg id="menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="40px" height="30px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <path d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z"/>
+                <path d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z"/>
+                <path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20    C512,404.954,503.046,396,492,396z"/>
+        </svg>
+        <svg id="geolocation" width="22" height="30" viewBox="0 0 22 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.4302 3.07741C16.4458 1.09301 13.8073 0 11.001 0C8.19428 0 5.55626 1.09301 3.57186 3.07741C-0.100545 6.74927 -0.556925 13.658 2.58349 17.8437L11.001 30L19.406 17.8607C22.559 13.658 22.1026 6.74927 18.4302 3.07741ZM18.5173 17.2203L11.001 28.0748L3.4727 17.2033C0.624294 13.4054 1.03246 7.16621 4.3471 3.85211C6.12441 2.0748 8.48739 1.09575 11.001 1.09575C13.5147 1.09575 15.8777 2.0748 17.6555 3.85211C20.9702 7.16621 21.3783 13.4054 18.5173 17.2203Z" fill="#D1A954"/>
+        </svg>
+        <svg id="phone" width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.7627 0H2.23709C1.18978 0 0.33783 0.852011 0.33783 1.89932V28.1007C0.33783 29.148 1.18984 30.0001 2.23715 30.0001H17.7627C18.81 30.0001 19.662 29.1481 19.662 28.1007V1.89932C19.6619 0.852011 18.81 0 17.7627 0ZM1.28958 4.77375H18.7102V24.6138H1.28958V4.77375ZM2.23709 0.951755H17.7627C18.2851 0.951755 18.7102 1.37681 18.7102 1.89932V4.13924H1.28958V1.89932C1.28958 1.37681 1.71464 0.951755 2.23709 0.951755ZM17.7627 29.0482H2.23709C1.71464 29.0482 1.28952 28.6232 1.28952 28.1007V25.2483H18.7102V28.1007C18.7102 28.6232 18.2851 29.0482 17.7627 29.0482Z" fill="#D1A954"/>
+        </svg>
+        <svg id="latter" width="22" height="10" viewBox="0 0 22 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.9999 9.78186C10.5281 9.78186 10.0564 9.62508 9.69744 9.31224L0.588705 1.36622C0.441149 1.23781 0.425543 1.01364 0.553944 0.865378C0.683765 0.717822 0.907227 0.704343 1.05478 0.831326L10.1635 8.77664C10.6168 9.17177 11.383 9.17177 11.8356 8.77664L20.933 0.844096C21.0798 0.715694 21.3033 0.729882 21.4338 0.878147C21.5622 1.02641 21.5473 1.24987 21.3997 1.37899L12.3024 9.31153C11.9427 9.62508 11.4717 9.78186 10.9999 9.78186Z" fill="#D1A954"/>
+        </svg>  
+    </div>  
+    <script src="js/script.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
+</body>
+</html>
